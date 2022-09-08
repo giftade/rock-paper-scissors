@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <div id="counter">
+            <div class="box-count" id="me">0</div>
+            <div class="box-count" id="computer">0</div>
+        </div>
+        <div class="info">
+            <h2>YOU</h2>
+            <h2 class="comps">COMPUTER</h2>
+        </div>
+    <section class="display">
+        <div class="box" id="left"></div>
+        <h1>VS</h1>
+        <div class="box" id="right"></div>
+
+    </section>
+    
+    <section class="options">
+        <img onclick="rock()" class="btn" id="rock" src="rock.png" alt="rock">
+        <img onclick="paper()" class="btn" id="paper" src="paper.jpg" alt="paper">
+        <img onclick="scissors()" class="btn" id="scissors" src="scissors.jpg" alt="scissors">
+    </section>
+    <div id="results"><h2>Try Your Luck</h2></div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
