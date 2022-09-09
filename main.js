@@ -84,10 +84,8 @@ myScore.innerHTML = 0
 
 
 
-localStorage.setItem('fname','Gift')
-localStorage.setItem('lname','Ade')
-localStorage.setItem('age',17)
-localStorage.setItem('country','city')
+localStorage.setItem('fname',myCounter)
+
 console.log(localStorage)
 
 
